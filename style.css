@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  background-color: #fdf5e6;
+}
+
+header {
+  width: 100%;
+  min-height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7da081;
+  border: 5px #4e6752;
+  border-radius: 5px;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 2.2em;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#chatbot-container {
+  width: 50%;
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+footer {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7da081;
+  border: 5px #4e6752;
+}
+p {
+  color: whitesmoke;
+  font-family: 'Atkinson Hyperlegible Mono', monospace;
+  border: 5px #4e6752;
+  border-radius: 5px;
+}
