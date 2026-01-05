@@ -58,3 +58,42 @@ p {
   border: 5px #4e6752;
   border-radius: 5px;
 }
+
+/* --- Responsive --- */
+@media (max-width: 1024px) {
+  #chatbot-container {
+    width: 70%;
+    height: 75%;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    min-height: 12%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  #chatbot-container {
+    width: 95%;
+    height: 75%;
+  }
+
+  footer {
+    height: 8%;
+    padding: 10px;
+  }
+
+  p {
+    font-size: 0.7em;
+    text-align: center;
+  }
+}
